@@ -143,6 +143,7 @@ export var Headers = (function () {
 // This implementation is same as NodeJS.
 // see https://nodejs.org/dist/latest-v6.x/docs/api/http.html#http_message_headers
 function normalize(name) {
-    return name.toLowerCase();
+    return name;
+    //return name.toLowerCase();
 }
 //# sourceMappingURL=headers.js.map
